@@ -1,0 +1,49 @@
+:root {
+  --oscuro: #2e4520;
+  --claro: #f7f4ea;
+  --acento: #9dba55;
+  --acento-texto: #52711f;
+  --tarjeta: #fffdf8;
+  --linea: #e2dcc8;
+  --cuerpo: #4d5a44;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--claro);
+  color: var(--oscuro);
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
+
+main { max-width: 1100px; margin: 0 auto; padding: 48px 20px; }
+
+.eyebrow { text-transform: uppercase; letter-spacing: 2px; font-size: 13px; font-weight: 600; color: var(--acento-texto); }
+h1 { font-size: 40px; margin: 8px 0 12px; }
+.lead { color: var(--cuerpo); font-size: 18px; max-width: 760px; line-height: 1.5; }
+
+code { font-family: ui-monospace, 'Cascadia Code', Consolas, monospace; font-size: 14px; }
+.comandos { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
+.comandos code { background: var(--oscuro); color: var(--claro); padding: 8px 12px; border-radius: 8px; }
+
+.lista { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px; margin-top: 36px; }
+.tarjeta { background: var(--tarjeta); border: 1px solid var(--linea); border-radius: 12px; padding: 18px; }
+.tarjeta h2 { font-size: 18px; margin: 10px 0 6px; }
+.tarjeta p { color: var(--cuerpo); margin: 0 0 10px; }
+.tarjeta code { color: var(--acento-texto); }
+
+.nivel { font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 999px; }
+.nivel.básico { background: #e6eed2; color: var(--acento-texto); }
+.nivel.intermedio { background: #c5db86; color: var(--oscuro); }
+.nivel.avanzado { background: var(--oscuro); color: var(--claro); }
+
+.demo { margin-top: 40px; background: var(--tarjeta); border: 1px solid var(--linea); border-radius: 12px; padding: 24px; }
+.contador p { font-size: 22px; font-weight: 600; }
+.contador button { margin-right: 8px; padding: 8px 16px; border-radius: 8px; border: 1px solid var(--oscuro); background: var(--oscuro); color: var(--claro); cursor: pointer; }
+.contador button:disabled { opacity: 0.4; cursor: not-allowed; }
+
+@media (prefers-color-scheme: dark) {
+  :root { --oscuro: #dce5c8; --claro: #1d2a15; --tarjeta: #26351c; --linea: #3b4d2e; --cuerpo: #c3ccb5; --acento-texto: #c5db86; }
+  .nivel.intermedio { color: #1d2a15; }
+}

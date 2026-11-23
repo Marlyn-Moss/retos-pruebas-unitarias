@@ -1,0 +1,26 @@
+{
+  "name": "retos-pruebas-unitarias",
+  "version": "1.0.0",
+  "private": true,
+  "description": "20 ejercicios de pruebas unitarias con Jest en un proyecto Next.js · Módulo 21 Aplicación de Testing y QA · Instituto RETOS",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "next": "^15.5.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  }
+}

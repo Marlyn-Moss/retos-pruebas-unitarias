@@ -1,0 +1,23 @@
+// Lista de ejercicios que muestra la página principal
+export const ejercicios = [
+  { n: 1, titulo: 'Sumar dos números', concepto: 'AAA, toBe, toBeCloseTo', nivel: 'Básico' },
+  { n: 2, titulo: '¿Es par?', concepto: 'toBeTruthy, toBeFalsy', nivel: 'Básico' },
+  { n: 3, titulo: 'El mayor de tres números', concepto: 'test.each', nivel: 'Básico' },
+  { n: 4, titulo: 'Calcular el IVA', concepto: 'Decimales y toThrow', nivel: 'Básico' },
+  { n: 5, titulo: 'Convertir temperaturas', concepto: 'Valores conocidos', nivel: 'Básico' },
+  { n: 6, titulo: 'Invertir un texto', concepto: 'Casos borde y TypeError', nivel: 'Básico' },
+  { n: 7, titulo: 'Contar vocales', concepto: 'Mayúsculas y tildes', nivel: 'Básico' },
+  { n: 8, titulo: '¿Es palíndromo?', concepto: 'Reglas que se suman', nivel: 'Intermedio' },
+  { n: 9, titulo: 'Clasificar por edad', concepto: 'Particiones y valores límite', nivel: 'Intermedio' },
+  { n: 10, titulo: 'Resultado del estudiante', concepto: 'Cobertura de código', nivel: 'Intermedio' },
+  { n: 11, titulo: 'Costo de envío', concepto: 'El defecto del borde', nivel: 'Intermedio' },
+  { n: 12, titulo: 'Cupón de descuento', concepto: 'Kata TDD', nivel: 'Intermedio' },
+  { n: 13, titulo: 'FizzBuzz', concepto: 'toEqual con arreglos', nivel: 'Intermedio' },
+  { n: 14, titulo: 'Validar una contraseña', concepto: 'toContain, toHaveLength', nivel: 'Intermedio' },
+  { n: 15, titulo: 'Carrito de compras', concepto: 'Clases y beforeEach', nivel: 'Avanzado' },
+  { n: 16, titulo: 'Filtrar y ordenar productos', concepto: 'Inmutabilidad y .not', nivel: 'Avanzado' },
+  { n: 17, titulo: 'Inicio de sesión con bloqueo', concepto: 'Transición de estados', nivel: 'Avanzado' },
+  { n: 18, titulo: 'Confirmar un pedido', concepto: 'Stubs y mocks con jest.fn', nivel: 'Avanzado' },
+  { n: 19, titulo: 'Consultar usuarios', concepto: 'async, resolves, rejects', nivel: 'Avanzado' },
+  { n: 20, titulo: 'Componente Contador', concepto: 'React Testing Library', nivel: 'Avanzado' },
+];
